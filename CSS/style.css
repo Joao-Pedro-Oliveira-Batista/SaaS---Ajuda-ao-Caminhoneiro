@@ -44,6 +44,7 @@ footer{
     bottom: 50px;
     width: 100%;
     text-align: center;
+    
 }
 
 button{
@@ -53,7 +54,7 @@ button{
 }
 
 footer p{
-    color: white;
+    color: gray;
     padding-top: 2%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8em;
@@ -81,21 +82,21 @@ footer p{
     align-items: center;
 }
 
-.conteudo{
+.conteudologin{
     min-width: 300px;
     height: 600px;
     background-color: white;
     border-radius: 10px;
 }
 
-.conteudo h1{
+.conteudologin h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
     text-align: center;
     margin-top: 15px;
 }
 
-.conteudo p{
+.conteudologin p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8em;
     text-align: center;
@@ -103,7 +104,7 @@ footer p{
     color: gray;
 }
 
-.conteudo h2{
+.conteudologin h2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     margin-top: 60px;
@@ -119,11 +120,12 @@ footer p{
     font-weight: bolder;
 }
 
-.conteudo h3{
+.conteudologin h3{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     margin-top: 50px;
     margin-left: 20px;
+    
 }
 
 .ajuda{
@@ -164,6 +166,8 @@ label{
 
 .login-extra p{
     margin-top: 20px;
+    text-align: center;
+    color: gray;
 }
 
 .google{
@@ -175,5 +179,39 @@ label{
 
 .final p{
     margin-top: 35px;
+    text-align: center;
+    color: gray;
 }
+
+.conteudocadastro{
+    min-width: 300px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.conteudocadastro h1{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.Cadastrosubtitulo{
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.finalcd{
+    text-align: center;
+    margin-top: 15px;
+    color: gray;
+}
+
+
+
+
+
 
