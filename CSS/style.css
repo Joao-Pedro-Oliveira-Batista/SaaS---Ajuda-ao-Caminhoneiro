@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.inicio{
+.inicio {
     width: 100%;
     height: 100vh;
     background-image: url(fotoinicial.png);
@@ -14,24 +14,24 @@
     position: relative;
 }
 
-@media (max-width: 700px){
-    body{
-        background-position:  center;
+@media (max-width: 700px) {
+    body {
+        background-position: center;
     }
 }
 
-header{
+header {
     position: relative;
 }
 
-img{
-   width: 200px;
-   padding-top: 4%;
-   padding-left: 5%;
+img {
+    width: 200px;
+    padding-top: 4%;
+    padding-left: 5%;
 }
 
 
-.descricao p{
+.descricao p {
     color: white;
     padding-left: 5%;
     padding-top: 4%;
@@ -39,64 +39,64 @@ img{
     font-size: 1.2em;
 }
 
-footer{
+footer {
     position: fixed;
     bottom: 50px;
     width: 100%;
     text-align: center;
-    
+
 }
 
-button{
+button {
     width: 300px;
     height: 30px;
     border-radius: 50px;
 }
 
-footer p{
+footer p {
     color: gray;
     padding-top: 2%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8em;
 }
 
-@media (max-width: 700px){
-    img{
+@media (max-width: 700px) {
+    img {
         padding-top: 7%;
     }
 
-    .descricao p{
-       padding-top: 7%;
-       
+    .descricao p {
+        padding-top: 7%;
+
     }
 
-    button{
+    button {
         width: 200px;
     }
 }
 
-.container{
+.container {
     height: 100vb;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.conteudologin{
+.conteudologin {
     min-width: 300px;
     height: 600px;
     background-color: white;
     border-radius: 10px;
 }
 
-.conteudologin h1{
+.conteudologin h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
     text-align: center;
     margin-top: 15px;
 }
 
-.conteudologin p{
+.conteudologin p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8em;
     text-align: center;
@@ -104,14 +104,14 @@ footer p{
     color: gray;
 }
 
-.conteudologin h2{
+.conteudologin h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     margin-top: 60px;
     margin-left: 20px;
 }
 
-.preencher{
+.preencher {
     margin-top: 10px;
     margin-left: 20px;
     width: 250px;
@@ -120,33 +120,33 @@ footer p{
     font-weight: bolder;
 }
 
-.conteudologin h3{
+.conteudologin h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     margin-top: 50px;
     margin-left: 20px;
-    
+
 }
 
-.ajuda{
+.ajuda {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
-.botao{
+.botao {
     margin-top: 20px;
     margin-left: 20px;
 }
 
-.ajuda p{
+.ajuda p {
     margin-top: 20px;
     margin-right: 10px;
     font-size: 0.7em;
-    color: rgba(255, 255, 79, 0.966);
+    color: rgb(217, 219, 56);
 }
 
-.entrar{
+.entrar {
     margin-top: 40px;
     margin-left: 20px;
     width: 250px;
@@ -157,45 +157,45 @@ footer p{
     background-color: yellow;
 }
 
-label{
+label {
     margin-top: 20px;
     margin-right: 6dvh;
     font-size: 0.7em;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.login-extra p{
+.login-extra p {
     margin-top: 20px;
     text-align: center;
     color: gray;
 }
 
-.google{
+.google {
     width: 200px;
     border-radius: 3px;
     margin-top: 20px;
     margin-left: 50px;
 }
 
-.final p{
+.final p {
     margin-top: 35px;
     text-align: center;
     color: gray;
 }
 
-.conteudocadastro{
+.conteudocadastro {
     min-width: 300px;
     height: 600px;
     background-color: white;
     border-radius: 10px;
 }
 
-.conteudocadastro h1{
+.conteudocadastro h1 {
     text-align: center;
     margin-top: 15px;
 }
 
-.Cadastrosubtitulo{
+.Cadastrosubtitulo {
     display: block;
     margin-top: 20px;
     margin-left: 20px;
@@ -204,14 +204,118 @@ label{
     font-weight: bolder;
 }
 
-.finalcd{
+.finalcd {
     text-align: center;
     margin-top: 15px;
     color: gray;
 }
 
+.bodytl {
+    background-color: black;
+}
 
+.cabeçalhotl h1 {
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
 
+.cabeçalhotl p {
+    color: white;
+    margin-top: 35px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
 
+.lucrodomes {
+    width: auto;
+    height: 160px;
+    background-color: rgba(65, 63, 63, 0.884);
+    margin: auto;
+    margin-top: 60px;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 10px;
+    border-right: 4px solid rgba(255, 251, 0, 0.863);
+}
 
+.lucrodomes h1 {
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.lucrodomes p {
+    color: white;
+    padding-top: 15px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.informacoesadicionais1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.informacoesadicionais2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.informacoesestilo {
+    width: 160px;
+    height: 90px;
+    background-color: rgba(65, 63, 63, 0.884);
+    border-radius: 5px;
+    border-right: 3px solid rgb(255, 0, 0);
+    margin-top: 60px;
+}
+
+.informacoesadicionaish1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.informacoesadicionaisp {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.ultimasmovimentacoes h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding-top: 50px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.ultimasmovimentacoes p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+
+.NovoRegistro h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 30px;
+}
