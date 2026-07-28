@@ -14,20 +14,40 @@
         <p>Adicionar Despesa</p>
     </header>
     <main class="adicionandodespesas">
-        <h1 class="estiloh1despesa">Categoria</h1>
-        <p class="estilopdespesa">[ compustivel ]</p>
+
+        <h1 class="estiloh1despesa">Categoria:</h1>
+        <form method="get" autocomplete="on">
+            <div>
+                <label for="categoriadespesa"></label><br>
+                <input class="inputs" type="text" name="categoria" id="categoriadespesa"
+                    list="escolhadeacategoriadespesa" autocomplete="on">
+                <datalist id="escolhadeacategoriadespesa">
+                    <option selected>Combustivel</option>
+                </datalist>
+            </div>
+        </form>
+
         <h2 class="estiloh2despesa">Valor:</h2>
-        <form>
-            <label></label>
-            <input class="inputs" required placeholder="R$ - Adicionar o valor" type="number" name="valor"
-                id="valordespesa">
+        <form method="get">
+            <div>
+                <label for="valordespesa"></label><br>
+                <input class="inputs" required placeholder="R$ - Adicionar o valor" type="number" name="valor"
+                    id="valordespesa">
+            </div>
         </form>
+
         <h2 class="estiloh2despesa">Data:</h2>
-        <form>
-            <label></label>
-            <input class="inputs" required type="date" name="Data" id="datadespesa">
+        <form method="get">
+            <div>
+                <label for="datadespesa"></label><br>
+                <input class="inputs" required type="date" name="Data" id="datadespesa">
+            </div>
         </form>
+
         <h2 class="estiloh2despesa">observação (opicional)</h2>
+        <label for="observacaodespesa"></label><br>
+        <textarea name="observacao" id="observacaodespesa" cols="30" rows="10"></textarea>
+
         <br>
         <br>
         <p class="estilopdespesa2">Essa despesa será descontada<br> do lucro do mês</p>
