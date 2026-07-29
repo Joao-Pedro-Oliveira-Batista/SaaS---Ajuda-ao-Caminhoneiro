@@ -10,7 +10,7 @@
 
 <body class="bodyadicioandodespesas">
     <header class="cabeçalhoadicionandodespesas">
-        <h1><a href="Dashboard.html">◀ Voltar</a></h1>
+        <h1><a class="linkdespesa" href="Dashboard.html">◀ </a></h1>
         <p>Adicionar Despesa</p>
     </header>
     <main class="adicionandodespesas">
@@ -21,8 +21,18 @@
                 <label for="categoriadespesa"></label><br>
                 <input class="inputs" type="text" name="categoria" id="categoriadespesa"
                     list="escolhadeacategoriadespesa" autocomplete="on">
-                <datalist id="escolhadeacategoriadespesa">
-                    <option selected>Combustivel</option>
+
+                <datalist id="escolhadeacategoriadespesa" aria-placeholder="Digite ou selecione uma categoria">
+                    <option>Combustivel</option>
+                    <option>Pedágio</opition>
+                    <option>Alimentação</option>
+                    <option>Óleo</option>
+                    <option>Mecânica</option>
+                    <option>Pneus</option>
+                    <option>Lavagem</option>
+                    <option>Estacionamento</option>
+                    <option>Hospedagem</option>
+
                 </datalist>
             </div>
         </form>
@@ -47,9 +57,9 @@
         <h2 class="estiloh2despesa">observação (opicional)</h2>
         <label for="observacaodespesa"></label><br>
         <textarea name="observacao" id="observacaodespesa" cols="30" rows="10"></textarea>
+        <br>
+        <br>
 
-        <br>
-        <br>
         <p class="estilopdespesa2">Essa despesa será descontada<br> do lucro do mês</p>
 
         <section class="butaosalvardespesa">

@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+
+}
+
+.aentrar {
+    color: black;
+}
+
 .inicio {
     width: 100%;
     height: 100vh;
@@ -114,33 +123,21 @@ footer p {
 .preencher {
     margin-top: 10px;
     margin-left: 20px;
+    padding-left: 5px;
     width: 250px;
     height: 30px;
     border-radius: 3px;
-    font-weight: bolder;
 }
 
-.conteudologin h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    margin-top: 50px;
-    margin-left: 20px;
-
-}
-
-.ajuda {
+.ajudaformlogin {
     display: flex;
-    justify-content: space-between;
-
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
 }
 
-.botao {
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-.ajuda p {
-    margin-top: 20px;
+.ajudaformlogin p {
+    margin-top: 25px;
     margin-right: 10px;
     font-size: 0.7em;
     color: rgb(217, 219, 56);
@@ -157,7 +154,7 @@ footer p {
     background-color: yellow;
 }
 
-label {
+.checkbox {
     margin-top: 20px;
     margin-right: 6dvh;
     font-size: 0.7em;
@@ -178,7 +175,7 @@ label {
 }
 
 .final p {
-    margin-top: 35px;
+    margin-top: 15px;
     text-align: center;
     color: gray;
 }
@@ -193,6 +190,7 @@ label {
 .conteudocadastro h1 {
     text-align: center;
     margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .Cadastrosubtitulo {
@@ -347,7 +345,6 @@ label {
     text-align: center;
 }
 
-
 .planoatual {
     width: auto;
     height: 230px;
@@ -416,19 +413,21 @@ label {
 }
 
 .cabeçalhoadicionandodespesas h1 {
-    color: white;
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 20px;
-    text-decoration: none;
+}
+
+.linkdespesa {
+    color: white;
 }
 
 .cabeçalhoadicionandodespesas p {
     color: rgba(255, 251, 0, 0.863);
     font-size: 1.7em;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 10px;
 }
 
@@ -436,14 +435,14 @@ label {
     color: white;
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: 10px;
 }
 
 .inputs {
     margin-top: 20px;
     height: 40px;
-    width: 250px;
+    width: 90%;
     border-radius: 3px;
     padding-left: 5px;
 }
@@ -462,14 +461,15 @@ textarea {
     margin-left: 5px;
     padding-top: 5px;
     padding-left: 5px;
+    width: 90%;
 }
 
 .estilopdespesa2 {
     color: rgba(82, 80, 80, 0.884);
-    font-size: 1em;
+    font-size: 1.1em;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 10px;
-
+    margin-top: 20px;
 }
 
 .estiloh2despesa {
@@ -486,9 +486,10 @@ textarea {
 }
 
 .butaodespesa {
-    margin-top: 90px;
-    width: 250px;
-    margin-bottom: 10px;
+    margin-top: 80px;
+    width: 280px;
+    height: 35px;
+    margin-bottom: 20px;
     background-color: rgba(255, 251, 0, 0.863);
     font-family: Arial, Helvetica, sans-serif;
 }

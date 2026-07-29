@@ -18,19 +18,31 @@
             </header>
             <main>
                 <h2>Email</h2>
-                <form>
-                    <label></label>
-                    <input class="preencher" type="email" name="email" id="emaillogin">
+                <form method="post" autocomplete="on">
+                    <div>
+                        <label for="emaillogin"></label><br>
+                        <input required class="preencher" type="email" name="emaillogin" id="emaillogin">
+                    </div>
                 </form>
-                <h3>Senha</h3>
-                <input class="preencher" type="email" name="" id="">
 
-                <section class="ajuda">
-                    <input class="botao" type="checkbox" name="lembrar" id="">
-                    <label for="lembrar">Lembrar senha</label>
+                <h2>Senha</h2>
+                <form method="post" autocomplete="on">
+                    <label for="senhalogin"></label><br>
+                    <input required class="preencher" type="text" name="senha" id="senhalogin">
+                </form>
 
+                <section>
+                    <form>
+                        <div class="ajudaformlogin">
 
-                    <p>Esqueci minha senha</p>
+                            <label class="checkbox" for="lembrarlogin">
+                                <input type="checkbox" name="lembrar" id="lembrarlogin">
+                                lembre-me
+                            </label>
+
+                            <p>Esqueci minha senha</p>
+                        </div>
+                    </form>
                 </section>
 
                 <button class="entrar">Entrar</button>
