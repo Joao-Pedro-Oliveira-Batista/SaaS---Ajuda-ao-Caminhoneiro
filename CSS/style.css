@@ -1,3 +1,5 @@
+/* Configuração Global */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +10,8 @@ a {
     text-decoration: none;
 
 }
+
+/* Inicio */
 
 .aentrar {
     color: black;
@@ -83,6 +87,8 @@ footer p {
         width: 200px;
     }
 }
+
+/* Login */
 
 .container {
     height: 100vb;
@@ -180,6 +186,8 @@ footer p {
     color: gray;
 }
 
+/* Cadastro */
+
 .conteudocadastro {
     min-width: 300px;
     height: 600px;
@@ -207,6 +215,8 @@ footer p {
     margin-top: 15px;
     color: gray;
 }
+
+/* Deshboard */
 
 .bodytl {
     background-color: black;
@@ -408,6 +418,8 @@ footer p {
     margin-left: 10px;
 }
 
+/* Adicionar Despesa */
+
 .bodyadicioandodespesas {
     background-color: black;
 }
@@ -419,7 +431,7 @@ footer p {
     margin-left: 20px;
 }
 
-.linkdespesa {
+.a-despesa {
     color: white;
 }
 
@@ -472,7 +484,8 @@ textarea {
     margin-top: 20px;
 }
 
-.estiloh2despesa {
+.campo label {
+    display: inline-block;
     color: white;
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
@@ -506,4 +519,30 @@ textarea {
 .dropdown {
     display: flex;
     align-items: center;
+}
+
+/* Adicionar Frete */
+
+.bodyadicionarfrete {
+    background-color: black;
+}
+
+.a-frete {
+    color: white;
+}
+
+.cabecalhofrete h1 {
+    color: white;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.cabecalhofrete p {
+    color: rgba(255, 251, 0, 0.863);
+    font-size: 1.7em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: 10px;
 }
