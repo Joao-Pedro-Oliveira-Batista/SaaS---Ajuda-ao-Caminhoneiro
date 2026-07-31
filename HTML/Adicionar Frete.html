@@ -14,17 +14,47 @@
         <p>Adicionar frete</p>
     </header>
     <main>
-        <form>
+        <form method="post">
             <div class="campo">
-                <label for="origemfrete">Origem</label>
-                <input class="inputs" required type="text" name="origem" id="origemfrete">
+                <label for="origemfrete">Origem</label><br>
+                <input class="inputs" placeholder="Ponto de partida" required type="text" name="origem"
+                    id="origemfrete">
             </div>
 
             <div class="campo">
-                <label for="destinofrete">Destino</label>
-                <input class="inputs" required type="text" name="destino" id="destinofrete">
+                <label for="destinofrete">Destino</label><br>
+                <input class="inputs" placeholder="Ponto de chegada" required type="text" name="destino"
+                    id="destinofrete">
+            </div>
+
+            <div class="campo">
+                <label for="valorrecebidofrete">Valor recebido</label><br>
+                <input class="inputs" placeholder="R$ Adicionar valor" required type="number" name="valorrecebido"
+                    id="valorrecebidofrete">
+            </div>
+
+            <div class="campo">
+                <label for="kmrodadofrete">Km rodados</label><br>
+                <input class="inputs" placeholder="Adicionar km rodados" required type="text" name="kmrodado"
+                    id="kmrodadofrete">
+            </div>
+
+            <div class="campo">
+                <label for="datafrete">Data</label><br>
+                <input class="inputs" required type="date" name="data" id="datafrete">
+            </div>
+
+            <div class="campo">
+                <label for="observacaofrete">Observação (opicioal)</label>
+                <textarea name="observacao" id="observacaofrete" cols="30" rows="10"></textarea>
             </div>
         </form>
+
+        <p class="estilopfrete">Esse frete será adicionado<br> no lucro do mês</p>
+
+        <section class="butaosalvarfrete">
+            <button class="butaofrete">Salvar Despesa</button>
+        </section>
     </main>
 </body>
 
