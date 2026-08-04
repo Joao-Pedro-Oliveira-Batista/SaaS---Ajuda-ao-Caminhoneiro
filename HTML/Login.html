@@ -17,33 +17,27 @@
                 <p>Faça login para acessar sua conta</p>
             </header>
             <main>
-                <h2>Email</h2>
                 <form method="post" autocomplete="on">
-                    <div>
-                        <label for="emaillogin"></label><br>
-                        <input required class="preencher" type="email" name="emaillogin" id="emaillogin">
+                    <div class="campo2">
+                        <label for="emaillogin">Email</label><br>
+                        <input autocomplete="email" required class="preencher" type="email" name="emaillogin"
+                            id="emaillogin">
+                    </div>
+
+                    <div class="campo2">
+                        <label for="senhalogin">Senha</label><br>
+                        <input required class="preencher" autocomplete="current-password" type="password" name="senha"
+                            id="senhalogin">
+                    </div>
+
+                    <div class="ajudaformlogin">
+                        <label class="checkbox" for="lembrarlogin">
+                            <input type="checkbox" name="lembrar" id="lembrarlogin">
+                            lembre-me
+                        </label>
+                        <p><a class="a-login" href="">Esqueci minha senha</a></p>
                     </div>
                 </form>
-
-                <h2>Senha</h2>
-                <form method="post" autocomplete="on">
-                    <label for="senhalogin"></label><br>
-                    <input required class="preencher" type="text" name="senha" id="senhalogin">
-                </form>
-
-                <section>
-                    <form>
-                        <div class="ajudaformlogin">
-
-                            <label class="checkbox" for="lembrarlogin">
-                                <input type="checkbox" name="lembrar" id="lembrarlogin">
-                                lembre-me
-                            </label>
-
-                            <p>Esqueci minha senha</p>
-                        </div>
-                    </form>
-                </section>
 
                 <button class="entrar">Entrar</button>
 

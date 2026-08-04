@@ -15,16 +15,15 @@
     </header>
     <main class="adicionandodespesas">
 
-        <h1 class="estiloh1despesa">Categoria:</h1>
         <form method="get" autocomplete="on">
-            <div>
-                <label for="categoriadespesa"></label><br>
-                <input class="inputs" type="text" name="categoria" id="categoriadespesa"
-                    list="escolhadeacategoriadespesa" autocomplete="on">
+            <div class="campo">
+                <label for="categoriadespesa">Categoria</label><br>
+                <input class="inputs" placeholder="Digite ou selecione uma categoria" required type="text"
+                    name="categoria" id="categoriadespesa" list="escolhadeacategoriadespesa" autocomplete="on">
 
-                <datalist id="escolhadeacategoriadespesa" aria-placeholder="Digite ou selecione uma categoria">
+                <datalist id="escolhadeacategoriadespesa">
                     <option>Combustivel</option>
-                    <option>Pedágio</opition>
+                    <option>Pedágio</option>
                     <option>Alimentação</option>
                     <option>Óleo</option>
                     <option>Mecânica</option>
@@ -35,31 +34,26 @@
 
                 </datalist>
             </div>
-        </form>
 
-        <h2 class="estiloh2despesaefrete">Valor:</h2>
-        <form method="get">
-            <div>
-                <label for="valordespesa"></label><br>
-                <input class="inputs" required placeholder="R$ - Adicionar o valor" type="number" name="valor"
-                    id="valordespesa">
+            <div class="campo">
+                <label for="valordespesa">Valor</label><br>
+                <input class="inputs" required step="0.01" min="0" inputmode="decimal"
+                    placeholder=" R$ - Adicionar o valor" type="number" name="valor" id="valordespesa">
+            </div>
+
+            <div class="campo">
+                <label for="datadespesa">Data</label><br>
+                <input class="inputs" required type="date" name="data" id="datadespesa">
+            </div>
+
+
+            <div class="campo">
+                <label for="observacaodespesa">Observação (Opcional)</label><br>
+                <textarea name="observacao" id="observacaodespesa" cols="30" rows="10"></textarea>
             </div>
         </form>
-
-        <h2 class="estiloh2despesaefrete">Data:</h2>
-        <form method="get">
-            <div>
-                <label for="datadespesa"></label><br>
-                <input class="inputs" required type="date" name="Data" id="datadespesa">
-            </div>
-        </form>
-
-        <h2 class="estiloh2despesaefrete">observação (opicional)</h2>
-        <label for="observacaodespesa"></label><br>
-        <textarea name="observacao" id="observacaodespesa" cols="30" rows="10"></textarea>
         <br>
         <br>
-
         <p class="estilopdespesa2">Essa despesa será descontada<br> do lucro do mês</p>
 
         <section class="butaosalvardespesa">

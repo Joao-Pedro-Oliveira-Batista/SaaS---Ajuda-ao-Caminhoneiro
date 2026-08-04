@@ -18,25 +18,28 @@
             </header>
             <main>
                 <form method="post" autocomplete="on">
-                    <label for="nomecadastro" class="Cadastrosubtitulo">Nome</label>
-                    <input required autocomplete="name" class="preencher" type="text" name="nome" id="nomecadastro">
-                </form>
+                    <div class="campocadastro">
+                        <label for="nomecadastro">Nome</label><br>
+                        <input required autocomplete="name" class="preencher" type="text" name="nome" id="nomecadastro">
+                    </div>
 
-                <form method="post" autocomplete="on">
-                    <label for="emailcadastro" class="Cadastrosubtitulo">Email</label>
-                    <input required autocomplete="email" class="preencher" type="text" name="email" id="emailcadastro">
-                </form>
+                    <div class="campocadastro">
+                        <label for="emailcadastro">Email</label><br>
+                        <input required autocomplete="email" class="preencher" type="email" name="email"
+                            id="emailcadastro">
+                    </div>
 
-                <form method="post" autocomplete="on">
-                    <label for="senhacadastro" class="Cadastrosubtitulo">Senha</label>
-                    <input required autocomplete="new-password" class="preencher" type="text" name="senha"
-                        id="senhacadastro">
-                </form>
+                    <div class="campocadastro">
+                        <label for="senhacadastro">Senha</label><br>
+                        <input minlength="8" required autocomplete="new-password" class="preencher" type="password"
+                            name="senha" id="senhacadastro">
+                    </div>
 
-                <form method="post" autocomplete="on">
-                    <label form="confirmarsenhacadastro" class="Cadastrosubtitulo">Confirmar senha</label>
-                    <input minlength="8" required autocomplete="current-password" class="preencher" type="text"
-                        name="confirmarsenha" id="confirmarsenhacadastro">
+                    <div class="campocadastro">
+                        <label for="confirmarsenhacadastro">Confirmar senha</label><br>
+                        <input minlength="8" required autocomplete="new-password" class="preencher" type="password"
+                            name="confirmarsenha" id="confirmarsenhacadastro">
+                    </div>
                 </form>
 
                 <section>

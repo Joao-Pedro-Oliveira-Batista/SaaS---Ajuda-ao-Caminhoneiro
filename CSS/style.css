@@ -119,13 +119,6 @@ footer p {
     color: gray;
 }
 
-.conteudologin h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    margin-top: 60px;
-    margin-left: 20px;
-}
-
 .preencher {
     margin-top: 10px;
     margin-left: 20px;
@@ -146,6 +139,10 @@ footer p {
     margin-top: 25px;
     margin-right: 10px;
     font-size: 0.7em;
+    color: rgb(217, 219, 56);
+}
+
+.a-login {
     color: rgb(217, 219, 56);
 }
 
@@ -201,13 +198,16 @@ footer p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.Cadastrosubtitulo {
+.campocadastro {
     display: block;
     margin-top: 20px;
-    margin-left: 20px;
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
+}
+
+.campocadastro label {
+    padding-left: 20px;
 }
 
 .finalcd {
@@ -492,6 +492,15 @@ textarea {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 70px;
     margin-left: 10px;
+}
+
+.campo2 label {
+    color: black;
+    display: inline-block;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    padding-left: 20px;
 }
 
 .butaosalvardespesa {
