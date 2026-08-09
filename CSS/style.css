@@ -280,7 +280,7 @@ footer p {
     border-right: 4px solid rgba(255, 251, 0, 0.863);
 }
 
-.lucrodomes h1 {
+.lucrodomes h2 {
     color: white;
     padding-top: 10px;
     padding-left: 10px;
@@ -316,7 +316,7 @@ footer p {
     margin-top: 60px;
 }
 
-.informacoesadicionaish1 {
+.informacoesadicionaish2 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3em;
@@ -332,7 +332,7 @@ footer p {
     padding-left: 10px;
 }
 
-.ultimasmovimentacoes h1 {
+.ultimasmovimentacoes h2 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.4em;
@@ -355,7 +355,7 @@ footer p {
     align-items: center;
 }
 
-.NovoRegistro h1 {
+.NovoRegistro h2 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
@@ -385,7 +385,7 @@ footer p {
     border-right: 4px solid rgba(255, 251, 0, 0.863);
 }
 
-.planoatual h1 {
+.planoatual h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     color: white;
