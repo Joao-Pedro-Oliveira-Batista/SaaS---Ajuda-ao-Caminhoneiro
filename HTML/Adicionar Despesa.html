@@ -15,14 +15,14 @@
     </header>
     <main class="adicionandodespesas">
 
-        <form method="get" autocomplete="on">
+        <form method="post" autocomplete="on">
             <div class="campo">
                 <label for="categoriadespesa">Categoria</label><br>
                 <input class="inputs" placeholder="Digite ou selecione uma categoria" required type="text"
                     name="categoria" id="categoriadespesa" list="escolhadeacategoriadespesa" autocomplete="on">
 
                 <datalist id="escolhadeacategoriadespesa">
-                    <option>Combustivel</option>
+                    <option>Combustível</option>
                     <option>Pedágio</option>
                     <option>Alimentação</option>
                     <option>Óleo</option>
@@ -51,14 +51,15 @@
                 <label for="observacaodespesa">Observação (Opcional)</label><br>
                 <textarea name="observacao" id="observacaodespesa" cols="30" rows="10"></textarea>
             </div>
-        </form>
-        <br>
-        <br>
-        <p class="estilopdespesa2">Essa despesa será descontada<br> do lucro do mês</p>
 
-        <section class="butaosalvardespesa">
-            <button class="butaodespesa">Salvar Despesa</button>
-        </section>
+            <br>
+            <br>
+            <p class="estilopdespesa2">Essa despesa será descontada<br> do lucro do mês</p>
+
+            <section class="butaosalvardespesa">
+                <button type="submit" class="butaodespesa">Salvar Despesa</button>
+            </section>
+        </form>
     </main>
 </body>
 
