@@ -558,7 +558,6 @@ textarea {
 }
 
 .cabecalhofrete h1 {
-    color: white;
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 30px;
@@ -594,4 +593,96 @@ textarea {
     border-radius: 4px;
     background-color: rgba(255, 251, 0, 0.863);
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Configuração */
+
+.bodyconfiguracao {
+    background-color: black;
+}
+
+.a-configuracao {
+    color: white;
+}
+
+.cabecalhoconfiguracao h1 {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.cabecalhoconfiguracao h2 {
+    color: rgba(255, 251, 0, 0.863);
+    font-size: 1.7em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.cabecalhoconfiguracao p {
+    color: rgba(82, 80, 80, 0.884);
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.aparenciaconfig h2 {
+    color: white;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.aparenciaconfig P {
+    color: white;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.labelconfig1 {
+    color: white;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.labelconfig2 {
+    color: rgba(82, 80, 80, 0.884);
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputconfig {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.aparenciatemaconfig {
+    border: 2px solid rgba(255, 251, 0, 0.863);
+    height: 50px;
+    width: 230px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+}
+
+.notificacaoconfig h2 {
+    color: white;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.notificacaoconfig p {
+    color: white;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-left: 15px;
 }
