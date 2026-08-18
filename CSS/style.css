@@ -367,7 +367,7 @@ footer p {
     margin-top: 50px;
     width: 300px;
     height: 35px;
-    border-radius: 4px;
+    border-radius: 15px;
     background-color: rgba(255, 251, 0, 0.863);
     text-align: center;
 }
@@ -407,12 +407,13 @@ footer p {
 .saibamaisbutao {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .saibamaisplanoprobutao {
     background-color: rgba(255, 251, 0, 0.863);
     width: 250px;
-    border-radius: 4px;
+    border-radius: 15px;
 }
 
 .Dashboardfooter {
@@ -491,6 +492,7 @@ textarea {
     padding-top: 5px;
     padding-left: 5px;
     width: 90%;
+    font-size: 16px;
 }
 
 .estilopdespesa2 {
@@ -522,6 +524,7 @@ textarea {
 .butaosalvardespesa {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .butaodespesa {
@@ -529,7 +532,7 @@ textarea {
     width: 280px;
     height: 35px;
     margin-bottom: 20px;
-    border-radius: 4px;
+    border-radius: 15px;
     background-color: rgba(255, 251, 0, 0.863);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -584,6 +587,7 @@ textarea {
 .butaosalvarfrete {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .butaofrete {
@@ -591,7 +595,7 @@ textarea {
     width: 280px;
     height: 35px;
     margin-bottom: 20px;
-    border-radius: 4px;
+    border-radius: 15px;
     background-color: rgba(255, 251, 0, 0.863);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -642,7 +646,7 @@ textarea {
     color: white;
     font-size: 1.3em;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-left: 15px;
 }
 
@@ -650,6 +654,7 @@ textarea {
     color: white;
     font-size: 1.3em;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .labelconfig2 {
@@ -667,7 +672,7 @@ textarea {
     border: 2px solid rgba(255, 251, 0, 0.863);
     height: 50px;
     width: 230px;
-    margin-top: 10px;
+    margin-top: 40px;
     margin-left: 20px;
     padding-bottom: 50px;
     border-radius: 5px;
@@ -677,7 +682,7 @@ textarea {
     color: white;
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: 10px;
 }
 
@@ -685,7 +690,7 @@ textarea {
     color: white;
     font-size: 1.2em;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 40px;
+    margin-top: 80px;
     margin-left: 15px;
     font-weight: normal;
 }
@@ -755,7 +760,7 @@ textarea {
     color: white;
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-left: 10px;
 }
 
@@ -763,7 +768,7 @@ textarea {
     color: white;
     font-size: 1.2em;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 15px;
 }
 
@@ -863,4 +868,47 @@ textarea {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 30px;
     margin-left: 10px;
+}
+
+.butaoperfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.butaoeditarperfil {
+    margin-top: 50px;
+    width: 280px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: rgba(255, 251, 0, 0.863);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Plano PRO */
+
+.bodyplanopro {
+    background-color: black;
+}
+
+.cabecalhoplanopro h1 {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.a-planopro {
+    color: white;
+}
+
+.tituloplanopro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloplanopro h2 {
+    color: white;
+    margin-top: 40px;
 }
