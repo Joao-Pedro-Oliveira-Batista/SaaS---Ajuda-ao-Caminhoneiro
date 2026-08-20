@@ -889,6 +889,7 @@ textarea {
 
 .bodyplanopro {
     background-color: black;
+    margin-bottom: 50px;
 }
 
 .cabecalhoplanopro h1 {
@@ -911,4 +912,78 @@ textarea {
 .tituloplanopro h2 {
     color: white;
     margin-top: 40px;
+}
+
+.planostelaplaopro {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 900px) {
+    .planostelaplaopro {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.planofree {
+    width: 400px;
+    height: 600px;
+    background-color: rgba(65, 63, 63, 0.884);
+    margin-top: 50px;
+    border-radius: 10px;
+    border-right: 5px solid rgb(255, 0, 0);
+}
+
+@media (max-width: 900px) {
+    .planofree {
+        width: auto;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+
+.planopro {
+    width: 400px;
+    height: 600px;
+    background-color: rgba(65, 63, 63, 0.884);
+    margin-top: 50px;
+    border-radius: 10px;
+    border-right: 4px solid rgba(255, 251, 0, 0.863);
+
+}
+
+@media (max-width: 900px) {
+    .planopro {
+        width: auto;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+
+.planofree h2 {
+    color: white;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.planofree p {
+    color: rgba(145, 143, 143, 0.884);
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.ulplanos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    padding-top: 50px;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
 }
