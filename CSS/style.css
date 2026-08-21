@@ -977,10 +977,15 @@ textarea {
     padding-top: 30px;
 }
 
+.ulplanopro {
+    display: flex;
+    justify-content: center;
+}
 
 .ulplanos {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 20px;
     color: white;
     padding-top: 50px;
