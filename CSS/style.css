@@ -202,6 +202,11 @@ footer p {
 
 /* Cadastro */
 
+.a-link {
+    text-decoration: none;
+    color: black;
+}
+
 .conteudocadastro {
     min-width: 300px;
     height: 600px;
@@ -561,20 +566,7 @@ textarea {
     color: white;
 }
 
-.cabecalhofrete h1 {
-    font-size: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 30px;
-    margin-left: 20px;
-}
-
-.cabecalhofrete p {
-    color: rgba(255, 251, 0, 0.863);
-    font-size: 1.7em;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 40px;
-    margin-left: 10px;
-}
+.cabecalhofrete p {}
 
 .estilopfrete {
     color: rgba(82, 80, 80, 0.884);
@@ -609,13 +601,6 @@ textarea {
 
 .a-configuracao {
     color: white;
-}
-
-.cabecalhoconfiguracao h1 {
-    font-size: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 30px;
-    margin-left: 20px;
 }
 
 .cabecalhoconfiguracao h2 {
@@ -779,13 +764,6 @@ textarea {
     margin-bottom: 20px;
 }
 
-.cabecalhoperfil h1 {
-    font-size: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 30px;
-    margin-left: 20px;
-}
-
 .a-perfil {
     color: white;
 }
@@ -892,13 +870,6 @@ textarea {
     margin-bottom: 50px;
 }
 
-.cabecalhoplanopro h1 {
-    font-size: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 30px;
-    margin-left: 20px;
-}
-
 .a-planopro {
     color: white;
 }
@@ -910,7 +881,7 @@ textarea {
 }
 
 .tituloplanopro h2 {
-    color: white;
+    color: rgba(255, 251, 0, 0.863);
     margin-top: 40px;
 }
 
@@ -1032,4 +1003,38 @@ textarea {
 
 .bodyrelatorio {
     background-color: black;
+}
+
+.cabecalhorelatorio h1 {
+    color: rgba(255, 251, 0, 0.863);
+    font-size: 1.7em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.cabecalhorelatorio p {
+    color: rgba(145, 143, 143, 0.884);
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.periodo-data h2 {
+    color: white;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.seletor-relatorio {
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 200px;
+    height: 40px;
+    padding-left: 5px;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
 }

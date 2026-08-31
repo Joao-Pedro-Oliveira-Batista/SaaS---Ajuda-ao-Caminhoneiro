@@ -6,14 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Relatório</title>
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body class="bodyrelatorio">
-    <header>
-
+    <header class="cabecalhorelatorio">
+        <a href="#"><i class="fa-solid fa-arrow-left setadevoltar"></i></a>
+        <h1>Relatório</h1>
+        <P>Acompanhe o desempenho <br> dos seus fretes</P>
     </header>
     <main>
+        <section class="periodo-data">
+            <h2>Período</h2>
 
+            <form method="post">
+                <label for="seletorrelatorio"></label>
+                <select class="seletor-relatorio" name="seletor" id="seletorrelatorio">
+                    <option>Janeiro 2026</option>
+                    <option>Fevereiro 2026</option>
+                    <option>Março 2026</option>
+                    <option>Abril 2026</option>
+                </select>
+
+            </form>
+
+        </section>
     </main>
 </body>
 
