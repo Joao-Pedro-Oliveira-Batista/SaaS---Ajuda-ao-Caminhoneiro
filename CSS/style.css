@@ -459,12 +459,12 @@ footer p {
     margin-left: 10px;
 }
 
-.estiloh1despesa {
+.setadevoltar {
     color: white;
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 50px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .inputs {
@@ -928,7 +928,7 @@ textarea {
 
 .planofree {
     width: 400px;
-    height: 600px;
+    height: auto;
     background-color: rgba(65, 63, 63, 0.884);
     margin-top: 50px;
     border-radius: 10px;
@@ -938,26 +938,26 @@ textarea {
 @media (max-width: 900px) {
     .planofree {
         width: auto;
-        margin-left: 3%;
-        margin-right: 3%;
+        margin-left: 5%;
+        margin-right: 5%;
+        order: 2;
     }
 }
 
 .planopro {
     width: 400px;
-    height: 600px;
+    height: auto;
     background-color: rgba(65, 63, 63, 0.884);
     margin-top: 50px;
     border-radius: 10px;
     border-right: 4px solid rgba(255, 251, 0, 0.863);
-
 }
 
 @media (max-width: 900px) {
     .planopro {
         width: auto;
-        margin-left: 3%;
-        margin-right: 3%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
 
@@ -971,10 +971,11 @@ textarea {
 
 .planofree p {
     color: rgba(145, 143, 143, 0.884);
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding-top: 30px;
+    color: rgb(255, 0, 0);
 }
 
 .ulplanopro {
@@ -986,9 +987,49 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 20px;
+    gap: 25px;
     color: white;
     padding-top: 50px;
     font-size: 1.3em;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.butaoplanopro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.butoauplanoproestilo {
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: rgba(255, 251, 0, 0.863);
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.planopro h2 {
+    color: white;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.planopro p {
+    color: rgba(145, 143, 143, 0.884);
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    color: rgba(255, 251, 0, 0.863);
+}
+
+/* Relatório */
+
+.bodyrelatorio {
+    background-color: black;
 }
