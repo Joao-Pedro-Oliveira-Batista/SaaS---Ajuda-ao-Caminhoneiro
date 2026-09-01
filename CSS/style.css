@@ -324,7 +324,7 @@ footer p {
 .informacoesadicionaish2 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
+    font-size: 1.4em;
     padding-top: 10px;
     padding-left: 10px;
 }
@@ -332,7 +332,7 @@ footer p {
 .informacoesadicionaisp {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding-top: 10px;
     padding-left: 10px;
 }
@@ -1003,6 +1003,7 @@ textarea {
 
 .bodyrelatorio {
     background-color: black;
+    margin-bottom: 40px;
 }
 
 .cabecalhorelatorio h1 {
@@ -1011,6 +1012,7 @@ textarea {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 40px;
     margin-left: 10px;
+    text-align: center;
 }
 
 .cabecalhorelatorio p {
@@ -1019,6 +1021,7 @@ textarea {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 40px;
     margin-left: 10px;
+    text-align: center;
 }
 
 .periodo-data h2 {
@@ -1037,4 +1040,119 @@ textarea {
     padding-left: 5px;
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.cardsrelatorio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cardsdeinformacoesrelatorio {
+    width: 20%;
+    height: 90px;
+    background-color: rgba(65, 63, 63, 0.884);
+    border-radius: 5px;
+    border-right: 3px solid rgb(255, 0, 0);
+    margin-top: 60px;
+}
+
+.cardsrelatorion2 {
+    display: none;
+}
+
+.cardsrelatorion3 {
+    display: none;
+}
+
+.cardsdeinformacoesrelatorion2 {
+    display: none;
+}
+
+.cardsdeinformacoesrelatorion3 {
+    display: none;
+}
+
+
+@media (max-width: 900px) {
+
+    .cardsrelatorio {
+        display: none;
+    }
+
+    .cardsdeinformacoesrelatorio {
+        display: none;
+    }
+
+    .cardsrelatorion2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .cardsrelatorion3 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .cardsdeinformacoesrelatorion2 {
+        display: block;
+        width: 35%;
+        height: 90px;
+        background-color: rgba(65, 63, 63, 0.884);
+        border-radius: 5px;
+        border-right: 3px solid rgb(255, 0, 0);
+        margin-top: 60px;
+    }
+
+    .cardsdeinformacoesrelatorion3 {
+        display: block;
+        width: 35%;
+        height: 90px;
+        background-color: rgba(65, 63, 63, 0.884);
+        border-radius: 5px;
+        border-right: 3px solid rgb(255, 0, 0);
+        margin-top: 60px;
+    }
+}
+
+.estilocardsrelatorioh2 {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.estilocardsrelatoriop {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.graficosrelatorio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.desempenhodoslucros {
+    width: 40%;
+    height: 300px;
+    background-color: rgba(65, 63, 63, 0.884);
+    margin-top: 60px;
+    border-radius: 10px;
+    border-right: 3px solid rgba(255, 251, 0, 0.863);
+}
+
+.desempenhodasdespesas {
+    width: 40%;
+    height: 300px;
+    background-color: rgba(65, 63, 63, 0.884);
+    margin-top: 60px;
+    border-radius: 10px;
+    border-right: 3px solid rgb(255, 0, 0);
 }
